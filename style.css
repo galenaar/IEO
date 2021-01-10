@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+    font-family:'Raleway', sans-serif;
+    font-weight:lighter;
+    margin:0;
+    outline:0;
+    user-select:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    scroll-behavior :smooth;
+}
+html{
+    height:100%;
+    width:100%;
+    background:url("https://recyclecoach.com/wp-content/uploads/2019/10/ewaste.png");
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    color:#fff;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+button:hover{
+    background-color:"green";
+}
+
+#header {
+    height:20vh;
+    line-height:20vh;
+    text-align:center;
+    color:#fff;
+    user-select:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    transition:linear 2s;
+    font-size:larger;
+}
+nav{
+    position:fixed;
+    top:0;
+    right:0;
+    width:35vw;
+    display:block;
+    background:#303030;
+    border-radius:5vh;
+}
+
+nav a{
+    display:block;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    color:#AAA;
+    text-decoration:none;
+    user-select:none;
+    transition:500ms;
+    margin:0;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+    user-select:contain;
+    transition:500ms;
+    margin:0;
+}
+nav a:hover {
+    color:#fff;
+}
+button {
+    height:50px;
+    width:150px;
+    display:inline-block;
+    color:rgba(0,172,255,1);
+    text-decoration:none;
+    padding:10px;
+    border:0.5px solid rgba(0,172,255,1);
+    transition:500ms linear;
+}
+button:hover {
+    background:rgba(0,172,255,1);
+    color:#fff;
+    transition:500ms;
+}
+section {
+    text-align:center;
+}
+div{
+    text-align:left;
+    width:70vw;
+    display:inline-table;
+    background:rgba(0,0,0,0.8);
+    padding:10px;
+    border:5px solid #000;
+}
+div:hover {
+    background:rgba(0,0,0,0.4);
+    transition:500ms;
+}
+.open {
+    height:40px;
+    width:40px;
+    position:fixed;
+    bottom:1vh;
+    right:3vw;
+    background:#303030;
+    border:0;
+    font-size:larger;
+    color:#fff;
+}
+#scroll {
+    height:40px;
+    width:40px;
+    position:fixed;
+    bottom:1vh;
+    right:15vw;
+    background:#303030;
+    border:0;
+    font-size:larger;
+    color:#fff;
+    display:none;
+}
+h2{
+    border-bottom:0.5px solid #fff;
+    margin-bottom:1pc;
+}
+form input{
+    border:0;
+    background:transparent;
+    height:40px;
+    width:50vw;
+    line-height:40px;
+    font-size:20px;
+    color:#fff;
+    border-bottom:0.5px solid #fff;
+}
+form textarea {
+    margin-top:1em;
+    height:80px;
+    font-size:20px;
+    color:#fff;
+    background:transparent;
+    border:0;
+    border-bottom:0.5px solid #fff;
+    width:50vw;
+}
+input:focus, textarea:focus {
+    width:65vw;
+    transition:1s;
+}
+footer{
+    display:block;
+}
+footer div {
+    border:0;
+    background:rgba(0,0,0,0.8);
+    width:100%;
+}
+footer div:hover {
+    background:rgba(0,0,0,0.4);
+}
+#copy {
+    background:black;
+    padding:10px;
+    height:100px;
+    display:block ;
+    text-align:center ;
+
+}
+a:hover{
+    color:Dodgerblue;
+    text-decoration:underline;
+}
+@media (max-width: 400px) {
+  body {
+    font-size: .4rem;
+  }
+}
+
+@media (min-width:576px) {
+  body {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width:700px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width : 799px) {
+
+    h1::before {
+        content:"Wellcome"
+    }
+    .vedio {
+        height: auto;
+        width : 100%;
+    }
+}
+@media (min-width : 800px) {
+    h1::before{
+        content:"Electronic Waste Pollution And Management"
+    }
+    .vedio {
+        height: 500px;
+        width : 90%;
+    }
+}
