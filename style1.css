@@ -211,13 +211,20 @@ a:hover{
   }
 }
 @media (min-width : 800px) {
+    .pvideo {
+        height: 600px;
+        width : 90%;
+    }
     .vedio {
         height: 500px;
         width : 90%;
     }
 }
 @media (max-width : 799px) {
-
+    .pvideo {
+        height: 400px;
+        width : 100px;
+    }
     .vedio {
         height: auto;
         width : 100%;
